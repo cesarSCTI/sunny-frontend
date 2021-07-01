@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+/*Titulos font-family: 'Fraunces', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+/*Cuerpos font-family: 'Barlow', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+.movil{
+    display: none;
+}
+h1{
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.boton {
+    background-color: #fff;
+    padding: 3% 20px;
+    border-radius: 25px;
+    color: #000 !important;
+    font-family: 'Fraunces', serif !important;
+}
+h4{
+    font-family: 'Fraunces', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    background:#3ebfff;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+.logo{
+    padding: 20px 5%;
+}
+.nav{
+    margin: 0 15px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: end;
+}
+.learn{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fraunces', serif;
+}
+#section1{
+    background-image: url('images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display:flex;
+    height: calc(100vh - 0px);
+}
+.container-mid{
+    display:flex;
+    height: calc(70vh - 0px);
+    width: 100%;
+}
+.centrado{
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.texto{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+    width: 40%;
+}
+.subtitulo{
+    color:#000;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+}
+.cuerpo{
+    font-family: 'Barlow', sans-serif;
+    color:#000;
+    font-size: 18px;
+}
+.cuerpo-grafic-photo{
+    font-family: 'Barlow', sans-serif;
+    color:#000;
+    font-size: 14px;
+    text-align: center;   
+    padding: 0 30%;
+    padding-bottom: 5%;
+}
+.foto-section-2{
+    background-image: url('images/desktop/image-transform.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 50%;
+}
+.foto-section-3{
+    background-image: url('images/desktop/image-stand-out.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 50%;
+}
+.sect-4-1{
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sect-4-2{
+    background-image: url('images/desktop/image-photography.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-testimonial{
+    display:flex;
+    flex-direction: column;
+    height: calc(80vh - 0px);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.title-testimonial{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    color:#ccc;
+    letter-spacing: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 50px 0;
+}
+.cards-testimonial{
+    display: flex;
+}
+.col{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cuerpo-testimonial{
+    font-family: 'Barlow', sans-serif;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 15%;
+    line-height: 25px;
+}
+.name{
+    padding-top: 2%;
+    font-weight: 800;
+    font-family: 'Fraunces', serif;
+}
+.description{
+    font-size: 12px;
+    color:#ccc;
+}
+.testimonial-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.container-70{
+    width: 100%;
+    height: calc(70vh - 0px);
+    display: flex;
+}
+
+.col-img-bottles{
+    width: 50%;
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.col-img-orange{
+    width: 50%;
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.col-img-cone{
+    width: 50%;
+    background-image: url('images/desktop/image-gallery-cone.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.col-img-sugarcubes{
+    width: 50%;
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+    background-size: cover;
+    height: 100%;
+}
+.container-40{
+    height: calc(40vh - 0px);
+    width: 100%;
+    background-color: #90d4c5;
+    padding: 5% 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav-fo{
+    margin: 0 15px;
+    color: #2d7565;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: end;
+}
+ion-icon {
+    color: #2d7565;
+    margin: 0 15px;
+  }
+  .mid{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  }
+@media screen and (max-width:600px){
+    .movil{
+        display: block;
+    }
+    .escritorio{
+        display: none;
+    }
+    #section1{
+        background-image: url('images/mobile/image-header.jpg');
+        background-size: cover;
+        background-position-x: center;
+    }
+    .container-mid {
+        flex-direction: column;
+        height: 100%;
+    }
+    .texto {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        order:1;
+        padding: 0;
+        text-align: center;
+    }
+    .foto-section-2 {
+        background-image: url('images/desktop/image-transform.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        width: 100%;
+        height: 400px;
+        order:0;
+    }
+    .foto-section-3 {
+        background-image: url(images/desktop/image-stand-out.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        width: 100%;
+        height: 400px;
+    }
+    .learn{
+        padding: 40px 0;
+    }
+    .sect-4-1 {
+        width: 100%;
+        height: 500px;
+    }
+    .sect-4-2 {
+        width: 100%;
+        height: 500px;
+    }
+    .cuerpo-grafic-photo {
+        font-family: 'Barlow', sans-serif;
+        color: #000;
+        font-size: 16px;
+        text-align: center;
+        line-height: 25px;
+        padding: 0;
+        padding-bottom: 5%;
+    }
+    .cuerpo {
+        line-height: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .container-testimonial {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+    .cards-testimonial {
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+    .container-70 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .container-70 {
+        flex-direction: column;
+    }
+    .col-img-bottles{
+        background-image: url('images/mobile/image-gallery-milkbottles.jpg');
+        width: 50%;
+        height: 200px;
+    }
+    .col-img-orange{
+        background-image: url('images/mobile/image-gallery-orange.jpg');
+        width: 50%;
+        height: 200px;
+    }
+    .col-img-cone{
+        background-image: url('images/mobile/image-gallery-cone.jpg');
+        width: 50%;
+        height: 200px;
+    }
+    .col-img-sugarcubes{
+        background-image: url('images/mobile/image-gallery-sugar-cubes.jpg');
+        width: 50%;
+        height: 200px;
+    }
+    .container-40 {
+        height: calc(20vh - 0px);
+        width: 100%;
+        background-color: #90d4c5;
+        padding: 18% 0;
+    }
+}
